@@ -23,6 +23,11 @@ const newsSlice = createSlice({
     handleAddNews(state, action: PayloadAction<NewsData[]>) {
       state.newsData = [...action.payload];
     },
+    deleteNewsItems(state, action: PayloadAction<number>) {
+      state.newsData = state.newsData.filter(
+        (item) => item.id !== action.payload
+      );
+    },
   },
   extraReducers(builder) {
     builder
@@ -39,6 +44,6 @@ const newsSlice = createSlice({
   },
 });
 
-export const {} = newsSlice.actions;
+export const { deleteNewsItems } = newsSlice.actions;
 
 export default newsSlice.reducer;
