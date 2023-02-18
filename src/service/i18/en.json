@@ -1,6 +1,7 @@
 
 {
-"AddMoreItems": "Show more items"
-
-
+"AddMoreItems": "Show more items",
+"Main": "Main",
+"News": "News",
+"Auth": "Sign in"
 }
