@@ -2,6 +2,7 @@ import { Loader } from "components/Loader";
 import { useAppDispatch, useAppSelector } from "hooks/useTyped";
 import { useState } from "react";
 import { useEffect } from "react";
+import i18n from "service/i18/i18n";
 import { fetchNewsData } from "store/newsSlice";
 import { NewsItem } from "./NewsItem";
 
@@ -42,7 +43,9 @@ export const News: React.FC = () => {
                   />
                 ))
             : null}
-          <button onClick={handleShowMoreNewsItems}>Show more items</button>
+          <button onClick={handleShowMoreNewsItems}>
+            {i18n.t("AddMoreItems")}
+          </button>
         </div>
       )}
     </>
