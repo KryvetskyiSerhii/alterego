@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/alterego/static/js/main.df0ae647.js",
+    "static/media/loader.gif": "/alterego/static/media/loader.a1a996746e5e48352c81.gif",
+    "static/media/avatar.jpg": "/alterego/static/media/avatar.4393398c7a3193506507.jpg",
+    "index.html": "/alterego/index.html",
+    "main.df0ae647.js.map": "/alterego/static/js/main.df0ae647.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.df0ae647.js"
+  ]
+}
