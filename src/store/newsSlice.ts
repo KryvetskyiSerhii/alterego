@@ -11,7 +11,6 @@ export const fetchNewsData = createAsyncThunk<NewsData[]>(
   "newsData/fetchNewsData",
   async () => {
     const response: NewsData[] = await apiGetNewsList();
-    console.log(response);
     return response;
   }
 );

@@ -3,5 +3,14 @@
 "AddMoreItems": "Show more items",
 "Main": "Main",
 "News": "News",
-"Auth": "Sign in"
+"Auth": "Sign in",
+"Profile": "Profile",
+"MainContent": "This page is created as a test task of AlterEGO company",
+"DeleteButton": "Delete",
+"TextFieldName": "Name",
+"TextFieldPassword": "Password",
+"LoginButton": "Log in",
+"CancelButton": "Cancel",
+"AuthorizationError": "Invalid username or password",
+"LogOutButton": "Log out"
 }

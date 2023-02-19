@@ -1,8 +1,17 @@
 {
 
-"AddMoreItems": "Додати ще",
+"AddMoreItems": "Показати ще",
 "Main": "Головна",
 "News": "Новини",
-"Auth": "Увiйти"
+"Auth": "Увiйти",
+"Profile": "Профiль",
+"MainContent": "Ця сторінка створена як тестове завдання компанії AlterEGO",
+"DeleteButton": "Видалити",
+"TextFieldName": "Iм'я",
+"TextFieldPassword": "Пароль",
+"LoginButton": "Увiйти",
+"CancelButton": "Вiдмiнити",
+"AuthorizationError": "Невiрне ім'я користувача або пароль",
+"LogOutButton": "Вийти"
 
 }

@@ -6,6 +6,10 @@ const initialState: GeneralProps = {
     isLoggedIn: false,
     authorized: "initial",
   },
+  language: {
+    modalIsVisible: false,
+    code: "en",
+  },
 };
 
 const generalSlice = createSlice({
@@ -24,17 +28,30 @@ const generalSlice = createSlice({
       }
     },
     setIsLoggedIn(state) {
-      console.log("hi");
-
       state.auth.isLoggedIn = true;
     },
     setLoggedOff(state) {
       state.auth.isLoggedIn = false;
+    },
+    setTheLanguage(state, action: PayloadAction<string>) {
+      state.language.code = action.payload;
+    },
+    setModalIsVisible(state) {
+      state.language.modalIsVisible = true;
+    },
+    setOffModalIsVisible(state) {
+      state.language.modalIsVisible = false;
     },
   },
 });
 
 export default generalSlice.reducer;
 
-export const { handleUserAuthorization, setIsLoggedIn, setLoggedOff } =
-  generalSlice.actions;
+export const {
+  handleUserAuthorization,
+  setIsLoggedIn,
+  setLoggedOff,
+  setTheLanguage,
+  setModalIsVisible,
+  setOffModalIsVisible,
+} = generalSlice.actions;
