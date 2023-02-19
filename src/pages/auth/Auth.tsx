@@ -52,7 +52,6 @@ export const Auth: React.FC = () => {
         "credentials",
         JSON.stringify({ name: "admin", password: "12345" })
       );
-    console.log(authorization);
   }, [loggedIn]);
 
   return (
