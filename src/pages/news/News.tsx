@@ -1,8 +1,7 @@
-import { Box, Button, Container, Grid } from "@mui/material";
+import { Button, Container, Grid } from "@mui/material";
 import { Loader } from "components/Loader";
 import { useAppDispatch, useAppSelector } from "hooks/useTyped";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import i18n from "service/i18/i18n";
 import { fetchNewsData } from "store/newsSlice";
 import { GridContainer } from "./News.styled";

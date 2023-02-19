@@ -1,5 +1,5 @@
 import { Delete } from "@mui/icons-material";
-import { Box, Button, Typography, useMediaQuery } from "@mui/material";
+import { Button, Typography, useMediaQuery } from "@mui/material";
 import { useAppDispatch } from "hooks/useTyped";
 import i18n from "service/i18/i18n";
 import { deleteNewsItems } from "store/newsSlice";

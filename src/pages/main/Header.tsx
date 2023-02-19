@@ -1,6 +1,5 @@
 import { Language } from "@mui/icons-material";
-import { AppBar, Toolbar, Box, Stack, useMediaQuery } from "@mui/material";
-
+import { AppBar, Toolbar, Stack, useMediaQuery } from "@mui/material";
 import { NAV_BAR } from "constants/generalConstants";
 import { useAppDispatch, useAppSelector } from "hooks/useTyped";
 import { Link } from "react-router-dom";
